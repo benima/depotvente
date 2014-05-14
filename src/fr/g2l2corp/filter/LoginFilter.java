@@ -80,7 +80,7 @@ public class LoginFilter implements Filter {
 					// Si le mot de passe ou login n'est pas bon, on renvoi à la page d'authentification
 					// avec un message d'alerte " mot de passe ou login incorrect"
 					request.setAttribute("messageerror","mot de passe ou login incorrect");
-					RequestDispatcher rd = request.getRequestDispatcher("/authentification.jsp");
+					RequestDispatcher rd = request.getRequestDispatcher("/login.jsp");
 					rd.forward(request, response);
 					return;
 					// mot de passe bon, on ajoute l'utilisateur dans la session
@@ -96,7 +96,7 @@ public class LoginFilter implements Filter {
 
 			} else {
 				RequestDispatcher rd = request
-						.getRequestDispatcher("/authentification.jsp");
+						.getRequestDispatcher("/login.jsp");
 				rd.forward(request, response);
 
 				return;

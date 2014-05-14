@@ -14,8 +14,8 @@
      
 	<FORM Method="post" action="${accueilURL}">
 		<div><INPUT class="btn btn-lg btn-success" width=13px height=15px role="button" name="action"          value="produit"     id="produit"     type="submit"/></div>
-		<div><INPUT class="btn btn-lg btn-success" name="action"      value="fournisseur" id="fournisseur" type="submit"/></div>
-		<div><INPUT class="btn btn-lg btn-success" name="action"      value="vente"        id="vente"       type="submit"/> </div>
+		<br><div><INPUT class="btn btn-lg btn-success" name="action"      value="fournisseur" id="fournisseur" type="submit"/></div>
+		<br><div><INPUT class="btn btn-lg btn-success" name="action"      value="vente"        id="vente"       type="submit"/> </div>
 	</FORM>
 	</div>
 	<div class="footer">
